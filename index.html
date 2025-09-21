@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostolic Carmel School, Malel - Committed to Excellence</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>ACS Malel</h2>
+            </div>
+            <div class="hamburger-container">
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <span class="menu-label">MENU</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Full-screen Navigation Overlay -->
+    <div class="nav-overlay" id="nav-overlay">
+        <div class="nav-overlay-content">
+            <div class="nav-overlay-header">
+                <h2>Apostolic Carmel School</h2>
+                <p>Malel - Committed to Excellence</p>
+            </div>
+            <div class="nav-overlay-menu">
+                <a href="#home" class="nav-overlay-link">Home</a>
+                <a href="#about" class="nav-overlay-link">About Us</a>
+                <a href="#vision" class="nav-overlay-link">Vision & Mission</a>
+                <a href="#values" class="nav-overlay-link">Our Values</a>
+                <a href="#ac-stamp" class="nav-overlay-link">AC Stamp</a>
+                <a href="#carousel" class="nav-overlay-link">Gallery</a>
+                <a href="#highlight" class="nav-overlay-link">Educational Experience</a>
+                <a href="#news-events" class="nav-overlay-link">News & Events</a>
+                <a href="#contact" class="nav-overlay-link">Contact</a>
+            </div>
+            <div class="nav-overlay-school-levels">
+                <h3 class="school-levels-title">School Levels</h3>
+                <div class="school-levels-links">
+                    <a href="#pre-primary" class="school-level-link">Pre-Primary</a>
+                    <a href="#primary" class="school-level-link">Primary</a>
+                    <a href="#junior-school" class="school-level-link">Junior School</a>
+                </div>
+            </div>
+            <div class="nav-overlay-footer">
+                <div class="contact-info">
+                    <p>Malel, [City], [State]</p>
+                    <p>+91 [Phone Number]</p>
+                    <p>info@acsmalel.edu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section with Video -->
+    <section id="home" class="hero">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="hero-video" id="hero-video">
+                <source src="media/DJI_0401.MP4" type="video/mp4">
+                <source src="media/DJI_0402.MP4" type="video/mp4">
+                <source src="media/DJI_0403.MP4" type="video/mp4">
+                <!-- Fallback image if video doesn't load -->
+            </video>
+            <div class="video-overlay"></div>
+            <div class="video-controls">
+                <button class="video-play-btn" id="video-play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button class="video-pause-btn" id="video-pause-btn" style="display: none;">
+                    <i class="fas fa-pause"></i>
+                </button>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Apostolic Carmel School</h1>
+                <h2 class="hero-subtitle">Malel</h2>
+                <p class="hero-motto">Committed to Excellence</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Discover More</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Our School</h2>
+                <p class="section-subtitle">Nurturing minds, shaping futures</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Apostolic Carmel School, Malel stands as a beacon of educational excellence, 
+                        committed to developing holistic and globally competitive individuals who will 
+                        make a meaningful difference in society. Our institution is built on the 
+                        foundation of spiritual growth, academic excellence, and character development.
+                    </p>
+                    <div class="about-actions">
+                        <button class="read-more-btn" id="read-more-btn">Read More</button>
+                        <a href="history.html" class="history-link">Our History <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>1000+</h3>
+                            <p>Students</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Teachers</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>25+</h3>
+                            <p>Years of Excellence</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="auto-carousel">
+                        <div class="auto-carousel-track" id="auto-carousel-track">
+                            <div class="auto-carousel-slide">
+                                <img src="media/img-114.jpg" alt="School Campus" class="auto-carousel-img">
+                            </div>
+                            <div class="auto-carousel-slide">
+                                <img src="media/img-115.jpg" alt="School Building" class="auto-carousel-img">
+                            </div>
+                            <div class="auto-carousel-slide">
+                                <img src="media/img-116.jpg" alt="School Facilities" class="auto-carousel-img">
+                            </div>
+                            <div class="auto-carousel-slide">
+                                <img src="media/img-131.jpg" alt="School Environment" class="auto-carousel-img">
+                            </div>
+                            <div class="auto-carousel-slide">
+                                <img src="media/img-259.jpg" alt="School Life" class="auto-carousel-img">
+                            </div>
+                            <div class="auto-carousel-slide">
+                                <img src="media/img-35.jpg" alt="School Activities" class="auto-carousel-img">
+                            </div>
+                            <div class="auto-carousel-slide">
+                                <img src="media/img-78.jpg" alt="School Community" class="auto-carousel-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Carousel Section -->
+    <section id="carousel" class="image-carousel">
+        <div class="carousel-container">
+            <div class="carousel-track" id="carousel-track">
+                <div class="carousel-slide">
+                    <img src="media/DSC_3701.jpg" alt="School Campus" class="carousel-image">
+                    <div class="carousel-overlay">
+                        <h3>Beautiful Campus</h3>
+                        <p>Our state-of-the-art facilities</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="media/DSC_3732(1).jpg" alt="Students Learning" class="carousel-image">
+                    <div class="carousel-overlay">
+                        <h3>Active Learning</h3>
+                        <p>Engaging educational experiences</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="media/DSC_3733(1).jpg" alt="School Activities" class="carousel-image">
+                    <div class="carousel-overlay">
+                        <h3>School Activities</h3>
+                        <p>Enriching co-curricular programs</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="media/DSC_3734.jpg" alt="Students" class="carousel-image">
+                    <div class="carousel-overlay">
+                        <h3>Our Students</h3>
+                        <p>Bright minds, bright futures</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="media/DSC_3739(1).jpg" alt="Classroom" class="carousel-image">
+                    <div class="carousel-overlay">
+                        <h3>Modern Classrooms</h3>
+                        <p>Technology-enhanced learning spaces</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="media/DSC_3762(1).jpg" alt="School Life" class="carousel-image">
+                    <div class="carousel-overlay">
+                        <h3>School Life</h3>
+                        <p>Creating lasting memories</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="media/DSC_3763.jpg" alt="Education" class="carousel-image">
+                    <div class="carousel-overlay">
+                        <h3>Quality Education</h3>
+                        <p>Excellence in every lesson</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="media/DSC_3764(1).jpg" alt="Learning Environment" class="carousel-image">
+                    <div class="carousel-overlay">
+                        <h3>Learning Environment</h3>
+                        <p>Nurturing growth and development</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="carousel-indicators" id="carousel-indicators">
+                <!-- Indicators will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision" class="vision-mission">
+        <div class="container">
+            <div class="vision-content">
+                <div class="vision-card">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>We envision developing holistic and globally competitive persons who will make a difference in society.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="card-icon">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>Commitment to developing spiritually oriented, intellectually balanced, morally upright, socially concerned and globally competitive persons who will make a difference in society.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section - UMS-Wright Style -->
+    <section id="values" class="core-values">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Core Values</h2>
+                <p class="section-subtitle">The principles that guide our educational journey</p>
+            </div>
+            
+            <div class="core-values-container">
+                <!-- Value 1: God the Greatest Treasure -->
+                <div class="core-value-item">
+                    <div class="core-value-content">
+                        <div class="core-value-text">
+                            <h3 class="core-value-title">God the Greatest Treasure</h3>
+                            <p class="core-value-description">Rooted in faith, we guide students to recognize divine presence in all they do.</p>
+                        </div>
+                        <div class="core-value-images">
+                            <div class="core-value-image">
+                                <img src="media/melina.jpg" alt="Faith and Spirituality" class="core-img">
+                            </div>
+                            <div class="core-value-image">
+                                <img src="media/onyona.jpg" alt="Divine Guidance" class="core-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Value 2: Self-Esteem and Self-Respect -->
+                <div class="core-value-item">
+                    <div class="core-value-content">
+                        <div class="core-value-text">
+                            <h3 class="core-value-title">Self-Esteem and Self-Respect</h3>
+                            <p class="core-value-description">Empowering students to value themselves and their unique potential.</p>
+                        </div>
+                        <div class="core-value-images">
+                            <div class="core-value-image">
+                                <img src="media/pauline.jpg" alt="Self-Confidence" class="core-img">
+                            </div>
+                            <div class="core-value-image">
+                                <img src="media/st1.jpg" alt="Personal Growth" class="core-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Value 3: Respect for Others -->
+                <div class="core-value-item">
+                    <div class="core-value-content">
+                        <div class="core-value-text">
+                            <h3 class="core-value-title">Respect for Others</h3>
+                            <p class="core-value-description">Fostering empathy, kindness, and community-mindedness.</p>
+                        </div>
+                        <div class="core-value-images">
+                            <div class="core-value-image">
+                                <img src="media/st2.jpg" alt="Community Respect" class="core-img">
+                            </div>
+                            <div class="core-value-image">
+                                <img src="media/st3.jpg" alt="Empathy and Kindness" class="core-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Value 4: Truth and Integrity -->
+                <div class="core-value-item">
+                    <div class="core-value-content">
+                        <div class="core-value-text">
+                            <h3 class="core-value-title">Truth and Integrity</h3>
+                            <p class="core-value-description">Building character through honesty and ethical behavior.</p>
+                        </div>
+                        <div class="core-value-images">
+                            <div class="core-value-image">
+                                <img src="media/st4.jpg" alt="Honesty" class="core-img">
+                            </div>
+                            <div class="core-value-image">
+                                <img src="media/st6.jpg" alt="Ethical Behavior" class="core-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Value 5: Self Discipline -->
+                <div class="core-value-item">
+                    <div class="core-value-content">
+                        <div class="core-value-text">
+                            <h3 class="core-value-title">Self Discipline</h3>
+                            <p class="core-value-description">Encouraging responsibility and inner strength.</p>
+                        </div>
+                        <div class="core-value-images">
+                            <div class="core-value-image">
+                                <img src="media/st7.jpg" alt="Self Control" class="core-img">
+                            </div>
+                            <div class="core-value-image">
+                                <img src="media/st8.jpg" alt="Responsibility" class="core-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Value 6: Determination and Hard Work -->
+                <div class="core-value-item">
+                    <div class="core-value-content">
+                        <div class="core-value-text">
+                            <h3 class="core-value-title">Determination and Hard Work</h3>
+                            <p class="core-value-description">Instilling perseverance and a strong work ethic.</p>
+                        </div>
+                        <div class="core-value-images">
+                            <div class="core-value-image">
+                                <img src="media/st9.jpg" alt="Perseverance" class="core-img">
+                            </div>
+                            <div class="core-value-image">
+                                <img src="media/img-114.jpg" alt="Work Ethic" class="core-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Value 7: Care for Environment -->
+                <div class="core-value-item">
+                    <div class="core-value-content">
+                        <div class="core-value-text">
+                            <h3 class="core-value-title">Care for Environment</h3>
+                            <p class="core-value-description">Cultivating stewardship and sustainability.</p>
+                        </div>
+                        <div class="core-value-images">
+                            <div class="core-value-image">
+                                <img src="media/img-115.jpg" alt="Environmental Care" class="core-img">
+                            </div>
+                            <div class="core-value-image">
+                                <img src="media/img-116.jpg" alt="Sustainability" class="core-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AC Stamp Section -->
+    <section id="ac-stamp" class="ac-stamp">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">AC Stamp of Education</h2>
+                <p class="section-subtitle">Our educational philosophy in action</p>
+            </div>
+            <div class="stamp-content">
+                <div class="stamp-visual">
+                    <div class="stamp-circle">
+                        <div class="stamp-center">
+                            <h3>AC</h3>
+                            <p>Stamp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stamp-values">
+                    <div class="stamp-item">
+                        <div class="stamp-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4>Rooted in God</h4>
+                        <p>Spiritual foundation for all learning</p>
+                    </div>
+                    <div class="stamp-item">
+                        <div class="stamp-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Excellence</h4>
+                        <p>Striving for the highest standards</p>
+                    </div>
+                    <div class="stamp-item">
+                        <div class="stamp-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h4>Integrated</h4>
+                        <p>Holistic approach to education</p>
+                    </div>
+                    <div class="stamp-item">
+                        <div class="stamp-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>Empowered</h4>
+                        <p>Enabling students to reach their potential</p>
+                    </div>
+                    <div class="stamp-item">
+                        <div class="stamp-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h4>Vibrant</h4>
+                        <p>Dynamic and energetic learning environment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlight Section - UMS-Wright Style -->
+    <section id="highlight" class="highlight-section">
+        <div class="highlight-container">
+            <div class="highlight-text">
+                <h2 class="highlight-title">An educational experience that prepares your child for a boundless future</h2>
+                <p class="highlight-subtitle">At Apostolic Carmel School, we believe in nurturing not just academic excellence, but the complete development of every child. Our holistic approach ensures students are equipped with the knowledge, skills, and values needed to thrive in an ever-changing world.</p>
+            </div>
+            <div class="highlight-images-row">
+                <div class="highlight-image-item">
+                    <img src="media/st1.jpg" alt="Academic Excellence" class="highlight-main-img">
+                    <div class="highlight-image-overlay">
+                        <h3>Academic Excellence</h3>
+                        <p>Rigorous curriculum designed to challenge and inspire</p>
+                    </div>
+                </div>
+                <div class="highlight-image-item">
+                    <img src="media/st2.jpg" alt="Character Development" class="highlight-main-img">
+                    <div class="highlight-image-overlay">
+                        <h3>Character Development</h3>
+                        <p>Building strong moral foundations and values</p>
+                    </div>
+                </div>
+                <div class="highlight-image-item">
+                    <img src="media/st3.jpg" alt="Creative Arts" class="highlight-main-img">
+                    <div class="highlight-image-overlay">
+                        <h3>Creative Arts</h3>
+                        <p>Fostering creativity and artistic expression</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">School Gallery</h2>
+                <p class="section-subtitle">Moments that define our journey</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Classroom</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Library</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Sports</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Events</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Students</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Campus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News and Events Section -->
+    <section id="news-events" class="news-events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">News & Events</h2>
+                <p class="section-subtitle">Stay updated with our latest happenings</p>
+            </div>
+            <div class="news-events-container">
+                <div class="news-events-grid">
+                    <div class="news-item featured">
+                        <div class="news-image">
+                            <img src="media/DSC_3701.jpg" alt="School Event" class="news-img">
+                            <div class="news-date">
+                                <span class="day">15</span>
+                                <span class="month">Dec</span>
+                            </div>
+                            <div class="news-category">Sports</div>
+                        </div>
+                        <div class="news-content">
+                            <h3 class="news-title">Annual Sports Day Celebration</h3>
+                            <p class="news-excerpt">Join us for our annual sports day featuring exciting competitions and student performances.</p>
+                            <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="media/DSC_3732(1).jpg" alt="Academic Achievement" class="news-img">
+                            <div class="news-date">
+                                <span class="day">20</span>
+                                <span class="month">Dec</span>
+                            </div>
+                            <div class="news-category">Academics</div>
+                        </div>
+                        <div class="news-content">
+                            <h3 class="news-title">Academic Excellence Awards</h3>
+                            <p class="news-excerpt">Celebrating our students' outstanding academic achievements and dedication to learning.</p>
+                            <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="media/DSC_3733(1).jpg" alt="Cultural Event" class="news-img">
+                            <div class="news-date">
+                                <span class="day">25</span>
+                                <span class="month">Dec</span>
+                            </div>
+                            <div class="news-category">Culture</div>
+                        </div>
+                        <div class="news-content">
+                            <h3 class="news-title">Christmas Cultural Program</h3>
+                            <p class="news-excerpt">A beautiful celebration of Christmas with cultural performances and community spirit.</p>
+                            <a href="#" class="news-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-load-more">
+                    <button class="load-more-btn">Load More News</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p>Malel, Eldoret, <br>Pin Code: [PIN]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+254-731-051-100</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@acsmalel.edu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Apostolic Carmel School</h3>
+                    <p>Malel</p>
+                    <p class="motto">Committed to Excellence</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#vision">Vision & Mission</a></li>
+                        <li><a href="#values">Values</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Apostolic Carmel School, Malel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
